@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Valeriyk's Blog
+title: Chugunium
 ---
 
 Welcome to my blog! 👋
