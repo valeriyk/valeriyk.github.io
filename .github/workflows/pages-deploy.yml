@@ -1,3 +1,7 @@
+# Publishing: In GitHub → Settings → Pages → Build and deployment, set
+# "Source" to GitHub Actions (not "Deploy from a branch"). Otherwise every
+# push runs this workflow AND the legacy "pages build and deployment" job;
+# the legacy Jekyll image cannot build jekyll-theme-chirpy, so that job fails.
 name: "Build and Deploy"
 on:
   push:
