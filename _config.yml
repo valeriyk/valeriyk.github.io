@@ -96,7 +96,7 @@ theme-mode: dark
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /asset/img/avatar/chugunium.png
+avatar: /assets/img/avatar/chugunium.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
